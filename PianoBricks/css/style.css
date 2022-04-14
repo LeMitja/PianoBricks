@@ -1,0 +1,117 @@
+#b{
+    background: url("../img/bag.jpg") center center fixed;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+  -webkit-filter: blur(5px);
+    background-size: cover;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    z-index: -10;
+}
+#title{
+    font-family: 'Comforter', cursive;
+    color:rgba(89, 60, 2, 0.945);
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#playarea{
+    height: 70vh;
+    display: flex;
+    /* padding-top: 5vh; */
+    /* padding-bottom: 10vh; */
+    justify-content: center;
+    margin: auto;
+    z-index: 5;
+    /* background-color: rgba(250, 233, 203, 0.97); */
+}
+#pl{
+    /* width: 30vw; */
+    border: 0.5vh solid rgba(89, 60, 2, 0.945);
+    box-shadow: 0 0 0.5vh 0.5vh rgba(105, 78, 23, 0.753);
+    z-index: 5;
+    background-color: rgba(250, 233, 203, 0.97);
+}
+#next{
+    position: absolute;
+    left: 75%;
+    width: 10vw;
+    top: 77%;
+    height: 5vh;
+    background-color: rgba(250, 233, 203, 0.97);
+    color: rgba(89, 60, 2, 0.945);
+    font-weight: bold;
+    border: 0.5vh solid rgba(89, 60, 2, 0.945);
+    box-shadow: 0 0 0.5vh 0.5vh rgba(105, 78, 23, 0.753);
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transition: 1s;
+    font-size: 2vh;
+}
+#chord{
+    position: absolute;
+    left: 50%;
+  transform: translate(-50%, 50px);
+    top: 79%;
+    background-color: rgba(250, 233, 203, 0.97);
+    color: rgba(89, 60, 2, 0.945);
+    font-weight: bold;
+    font-size: 4vh;
+    padding: 1vh;
+    border: 0.5vh solid rgba(89, 60, 2, 0.945);
+    box-shadow: 0 0 0.5vh 0.5vh rgba(105, 78, 23, 0.753);
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transition: 1s;
+}
+#points{
+    text-align: left;
+    width:9vw;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    background-color: rgba(250, 233, 203, 0.97);
+    color: rgba(89, 60, 2, 0.945);
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 1vh;
+    border: 0.5vh solid rgba(89, 60, 2, 0.945);
+    box-shadow: 0 0 0.5vh 0.5vh rgba(105, 78, 23, 0.753);
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transition: 1s;
+}
+#time{
+    position: absolute;
+    text-align: center;
+    width:9vw;
+    left: 12%;
+    top: 40%;
+    background-color: rgba(250, 233, 203, 0.97);
+    color: rgba(89, 60, 2, 0.945);
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 1vh;
+    border: 0.5vh solid rgba(89, 60, 2, 0.945);
+    box-shadow: 0 0 0.5vh 0.5vh rgba(105, 78, 23, 0.753);
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transition: 1s;
+}
+#lives{
+    position: absolute;
+    text-align: left;
+    width:9vw;
+    left: 12%;
+    top: 50%;
+    background-color: rgba(250, 233, 203, 0.97);
+    color: rgba(89, 60, 2, 0.945);
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 1vh;
+    border: 0.5vh solid rgba(89, 60, 2, 0.945);
+    box-shadow: 0 0 0.5vh 0.5vh rgba(105, 78, 23, 0.753);
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transition: 1s;
+}
+.swal2-popup {
+    font-family: 'Josefin Sans', sans-serif;
+  }
